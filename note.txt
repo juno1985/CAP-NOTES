@@ -11,3 +11,12 @@ HashMap
 插入元素后才判断该不该扩容，有可能无效扩容（插入后如果扩容，如果没有再次插入，就会产生无效扩容）
 当Map中元素总数超过Entry数组的75%，触发扩容操作，为了减少链表长度，元素分配更均匀
 计算index方法：index = hash & (tab.length – 1)
+
+
+
+----------------------------差分数组(解决Hacker Rank的Array Manipulation)----------------------------
+ * Difference array D[i] of a given array A[i] is defined as D[i] = A[i]-A[i-1] (for 0 < i < N ) and D[0] = A[0] considering 0 based indexing. Difference array can be used to perform range update queries "l r x" where l is left index, r is right index and x is value to be added and after all queries you can return original array from it. Where update range operations can be performed in O(1) complexity.
+
+update(l, r, x) : Add x to D[l] and subtract it from D[r+1], i.e., we do D[l] += x, D[r+1] -= x
+printArray() : Do A[0] = D[0] and print it. Fir rest of the elements, do A[i] = A[i-1] + D[i] and print them.
+Time complexity of update here is improved to O(1). Note that printArray() still takes O(n) time.
