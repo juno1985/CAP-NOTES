@@ -25,6 +25,7 @@ https://www.hackerrank.com/challenges/non-divisible-subset/problem
 
 
 https://www.hackerrank.com/challenges/arrays-ds/problem
+https://www.hackerrank.com/challenges/array-left-rotation/problem
 https://www.hackerrank.com/challenges/day-of-the-programmer/problem
 2-D List
 https://www.hackerrank.com/challenges/dynamic-array/problem
