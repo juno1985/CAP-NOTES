@@ -27,6 +27,25 @@ https://www.hackerrank.com/challenges/non-divisible-subset/problem
 https://www.hackerrank.com/challenges/arrays-ds/problem
 https://www.hackerrank.com/challenges/array-left-rotation/problem
 https://www.hackerrank.com/challenges/day-of-the-programmer/problem
+---------------------------------------------------------------------------------------------
+String的==和equals区别
+String a = "abc"和 String a = new String("abc");
+	String[] a_arr = {"abc"};
+    	String[] b_arr= {"abc"};
+    	System.out.println(a_arr[0] == b_arr[0]);
+    	
+    	String a = new String("abc");
+    	String b = new String("abc");
+    	System.out.println(a==b);
+    	
+    	String aa = "abc";
+    	String bb = "abc";
+    	System.out.println(aa==bb);
+    	
+    	aa = "bcd";
+https://www.hackerrank.com/challenges/sparse-arrays/problem
+---------------------------------------------------------------------------------------------
+
 2-D List
 https://www.hackerrank.com/challenges/dynamic-array/problem
 
