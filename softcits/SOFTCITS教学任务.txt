@@ -52,7 +52,8 @@ https://www.hackerrank.com/challenges/dynamic-array/problem
 HashMap
 https://www.hackerrank.com/challenges/migratory-birds/problem?h_r=profile
 
-
+Sorted Binary Tree & recursion
+https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem
 
 
 
