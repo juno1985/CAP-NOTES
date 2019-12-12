@@ -46,6 +46,9 @@ String a = "abc"ºÍ String a = new String("abc");
 https://www.hackerrank.com/challenges/sparse-arrays/problem
 ---------------------------------------------------------------------------------------------
 
+LinkedList
+https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem
+
 2-D List
 https://www.hackerrank.com/challenges/dynamic-array/problem
 
