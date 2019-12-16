@@ -1,0 +1,20 @@
+１．自分が開発したMD５暗号で使っています
+２．DBの方にsessionが存在するTBL_HBK_SESSIONがあります
+3．　session消除と作成の時で、table row lockを使っています
+ conn.setAutoCommit(false);//关闭事务自动提交
+ SELECT CUR_NUM FROM TBL_HBK_SEQUENCE WHERE SEQ_NAME=? FOR UPDATE //行锁
+ UPDATE TBL_HBK_SEQUENCE SET CUR_NUM=? WHERE SEQ_NAME=? //更新
+ conn.commit(); //手动commit
+４．ユーザーのフェイルを消除する時、thread.lock()を使います
+ jp.co.dreamarts.insuite.common.session.Session.delete()
+       removeAllTemporaryFiles();//  使用this.lock()加锁删除文件、文件夹
+                  removeAllAttributes(); // delete from TBL_HBK_SESSION_ATTR where session_id = ?
+
+５．cookieの安全ように、以下を実行します
+ 
+ //防止跨域-》禁止客户端脚本(JS)访问cookie
+  cookie.setHttpOnly(Application.getHibikiApplication().getSystemDefault()
+                .defaultBoolean("system.cookie.httpOnly", true));
+ //cookie只能通过加密协议如HTTPS/SSL 发送
+ cookie.setSecure(Application.getHibikiApplication().getSystemDefault()
+                .defaultBoolean("system.cookie.secure", request.isSecure()));
