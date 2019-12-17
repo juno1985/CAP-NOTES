@@ -5,25 +5,6 @@ try-catch-finally
 comparable/comparator
 
 
-
-https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
----------------------------------------------------------------------------------------------
- //list to array
-   Integer[] arr = new Integer[s.size()];
-   s.toArray(arr);
-https://www.hackerrank.com/challenges/the-birthday-bar/problem
----------------------------------------------------------------------------------------------
-//referance --> https://www.nayuki.io/page/next-lexicographical-permutation-algorithm
-//String.charAt()
-//String.subString(0
-https://www.hackerrank.com/challenges/bigger-is-greater/problem
----------------------------------------------------------------------------------------------
-https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
-https://www.hackerrank.com/challenges/non-divisible-subset/problem
-
-
-
-
 https://www.hackerrank.com/challenges/arrays-ds/problem
 https://www.hackerrank.com/challenges/array-left-rotation/problem
 https://www.hackerrank.com/challenges/day-of-the-programmer/problem
@@ -48,6 +29,35 @@ https://www.hackerrank.com/challenges/sparse-arrays/problem
 
 LinkedList
 https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem
+
+
+
+
+
+------Dec 22---------------------------------------------------------------------------------------
+
+https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem
+https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem?h_r=next-challenge&h_v=zen
+https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 2-D List
 https://www.hackerrank.com/challenges/dynamic-array/problem
