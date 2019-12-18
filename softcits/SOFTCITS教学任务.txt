@@ -1,7 +1,12 @@
+ArrayList add(1)/add(2)/add(2)/add(2)/add(3)  for 循环删除后结果
+静态内部类->LinkedList/java.util.LinkedList.Node<E>
+LinkedList/ArrayList区别？
+java.util.Stack
 冒泡排序
-try-catch-finally
-工具类开发，private修饰构造器，static final修饰方法
 二分查找
+
+
+
 comparable/comparator
 
 
