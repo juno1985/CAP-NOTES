@@ -67,6 +67,10 @@ ArrayList remove(int index)
 
 
 
+LinkedList
+https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem
+
+
 
 2-D List
 https://www.hackerrank.com/challenges/dynamic-array/problem
