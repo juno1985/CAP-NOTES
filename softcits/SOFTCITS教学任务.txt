@@ -73,6 +73,9 @@ https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted
 PreOrder Tree
 https://www.hackerrank.com/challenges/tree-preorder-traversal/problem
 
+PostOrder Tree
+https://www.hackerrank.com/challenges/tree-postorder-traversal/problem
+
 2-D List
 https://www.hackerrank.com/challenges/dynamic-array/problem
 
