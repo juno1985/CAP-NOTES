@@ -63,12 +63,20 @@ ArrayList remove(int index)
 
 
 
-
-
-
-
 LinkedList
+https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem
 https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem
+
+Stack
+https://www.hackerrank.com/challenges/dynamic-array/problem
+https://www.hackerrank.com/challenges/balanced-brackets/problem
+
+String
+https://www.hackerrank.com/challenges/sparse-arrays/problem
+
+2D Array
+https://www.hackerrank.com/challenges/2d-array/problem
+
 
 PreOrder Tree
 https://www.hackerrank.com/challenges/tree-preorder-traversal/problem
