@@ -1,8 +1,4 @@
 ArrayList add(1)/add(2)/add(2)/add(2)/add(3)  for 循环删除后结果
-静态内部类->LinkedList/java.util.LinkedList.Node<E>
-LinkedList/ArrayList区别？
-java.util.Stack
-冒泡排序
 二分查找
 
 
@@ -47,35 +43,6 @@ https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem?h
 https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
 https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
 https://www.hackerrank.com/challenges/compare-two-linked-lists/problem
-
-
-to be researched------------------
-ArrayList remove(int index) 
- final Object[] es = elementData;
-
-        @SuppressWarnings("unchecked") E oldValue = (E) es[index];
-        fastRemove(es, index);
-
-
-
-
-
-
-
-
-LinkedList
-https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem
-https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem
-
-Stack
-https://www.hackerrank.com/challenges/dynamic-array/problem
-https://www.hackerrank.com/challenges/balanced-brackets/problem
-
-String
-https://www.hackerrank.com/challenges/sparse-arrays/problem
-
-2D Array
-https://www.hackerrank.com/challenges/2d-array/problem
 
 
 PreOrder Tree
