@@ -1,0 +1,47 @@
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class MyConcurrentHashMap {
+	
+	  /**
+     * The load factor for this table. Overrides of this value in
+     * constructors affect only the initial table capacity.  The
+     * actual floating point value isn't normally used -- it is
+     * simpler to use expressions such as {@code n - (n >>> 2)} for
+     * the associated resizing threshold.
+     */
+    private static final float LOAD_FACTOR = 0.75f;
+	
+	private volatile AtomicInteger sizeCtl;
+
+	/**
+	 * 实际就是做两件事
+	 * 1. 判断其他线程如果也在初始化Node table则Thead.yeild();
+	 * 2. 否则创建一个 当前元素个数/0.75的大小数组，即所占空间不超过总容量的75%
+	 */
+	private final Node<K,V>[] initTable() {
+	    Node<K,V>[] tab; int sc;
+	    while ((tab = table) == null || tab.length == 0) {
+	//如果一个线程发现sizeCtl<0，意味着另外的线程执行CAS操作成功，当前线程只需要让出cpu时间片
+	        if ((sc = sizeCtl) < 0) 
+	            Thread.yield(); // lost initialization race; just spin
+	        else if (U.compareAndSwapInt(this, SIZECTL, sc, -1)) {
+	            try {
+	                if ((tab = table) == null || tab.length == 0) {
+	                    int n = (sc > 0) ? sc : DEFAULT_CAPACITY;
+	                    @SuppressWarnings("unchecked")
+	                    Node<K,V>[] nt = (Node<K,V>[])new Node<?,?>[n];
+	                    table = tab = nt;
+	                    sc = n - (n >>> 2);  //0.75*capacity
+	                }
+	            } finally {
+	                sizeCtl = sc;
+	            }
+	            break;
+	        }
+	    }
+	    return tab;
+	}
+
+	
+
+}
