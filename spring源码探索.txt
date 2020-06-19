@@ -1,0 +1,5 @@
+Spring事务搜索
+org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.computeTransactionAttribute(Method, Class<?>)
+对于 务属性的获取规则相信大家都已经很清楚，如果方法中存在事务属性，则使用方法
+上的属性，否则使用方法所在的类上的属性，如果方法所在类的属性上还是没有搜寻到对应的
+务属性，那么再搜寻接口中的方法，再没有的话，最后尝试搜 接口的类上面的声明
